@@ -1,0 +1,45 @@
+/* id */
+#label {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* class */
+.selector {
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+/* Style for images */
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style for labels */
+label {
+    color: red;
+    font-weight: bold;
+}
+
+/* Changing text properties*/
+p:nth-of-type(1) {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: green;
+}
+
+p:nth-of-type(2) {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    font-style: italic;
+    color: blue;
+}
+
+p:nth-of-type(3) {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: purple;
+}
