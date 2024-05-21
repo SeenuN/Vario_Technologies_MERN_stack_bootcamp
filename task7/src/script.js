@@ -1,4 +1,4 @@
-// script.js
+
 $(document).ready(function() {
     // Task 1: Display Welcome Message
     $('#welcomeButton').click(function() {
